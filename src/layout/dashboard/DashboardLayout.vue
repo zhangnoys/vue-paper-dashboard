@@ -2,13 +2,13 @@
   <div class="wrapper">
     <side-bar>
       <template slot="links">
-        <sidebar-link to="/dashboard" name="Dashboard" icon="ti-panel"/>
-        <sidebar-link to="/stats" name="User Profile" icon="ti-user"/>
-        <sidebar-link to="/table-list" name="Table List" icon="ti-view-list-alt"/>
-        <sidebar-link to="/typography" name="Typography" icon="ti-text"/>
-        <sidebar-link to="/icons" name="Icons" icon="ti-pencil-alt2"/>
-        <sidebar-link to="/maps" name="Map" icon="ti-map"/>
-        <sidebar-link to="/notifications" name="Notifications" icon="ti-bell"/>
+        <sidebar-link to="/dashboard" name="仪表盘" icon="ti-panel"/>
+        <sidebar-link to="/stats" name="用户信息" icon="ti-user"/>
+        <sidebar-link to="/table-list" name="列表" icon="ti-view-list-alt"/>
+        <sidebar-link to="/typography" name="排版" icon="ti-text"/>
+        <sidebar-link to="/icons" name="图标" icon="ti-pencil-alt2"/>
+        <sidebar-link to="/maps" name="地图" icon="ti-map"/>
+        <sidebar-link to="/notifications" name="警告" icon="ti-bell"/>
       </template>
       <mobile-menu>
         <li class="nav-item">

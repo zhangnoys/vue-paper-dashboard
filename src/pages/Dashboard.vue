@@ -31,24 +31,24 @@
             <i class="ti-reload"></i> Updated 3 minutes ago
           </span>
           <div slot="legend">
-            <i class="fa fa-circle text-info"></i> Open
-            <i class="fa fa-circle text-danger"></i> Click
-            <i class="fa fa-circle text-warning"></i> Click Second Time
+            <i class="fa fa-circle text-info"></i> 温度
+            <i class="fa fa-circle text-danger"></i> 湿度
+            <i class="fa fa-circle text-warning"></i> 光照
           </div>
         </chart-card>
       </div>
 
       <div class="col-md-6 col-12">
-        <chart-card title="Email Statistics"
-                    sub-title="Last campaign performance"
+        <chart-card title="光照状态"
+                    sub-title="上一次活动表现"
                     :chart-data="preferencesChart.data"
                     chart-type="Pie">
           <span slot="footer">
-            <i class="ti-timer"></i> Campaign set 2 days ago</span>
+            <i class="ti-timer"></i> 两天之前活动</span>
           <div slot="legend">
-            <i class="fa fa-circle text-info"></i> Open
-            <i class="fa fa-circle text-danger"></i> Bounce
-            <i class="fa fa-circle text-warning"></i> Unsubscribe
+            <i class="fa fa-circle text-info"></i> 光照
+            <i class="fa fa-circle text-danger"></i> 湿度
+            <i class="fa fa-circle text-warning"></i> 温度
           </div>
         </chart-card>
       </div>
@@ -59,11 +59,11 @@
                     :chart-data="activityChart.data"
                     :chart-options="activityChart.options">
           <span slot="footer">
-            <i class="ti-check"></i> Data information certified
+            <i class="ti-check"></i> 确定的数据
           </span>
           <div slot="legend">
-            <i class="fa fa-circle text-info"></i> Tesla Model S
-            <i class="fa fa-circle text-warning"></i> BMW 5 Series
+            <i class="fa fa-circle text-info"></i> 温度
+            <i class="fa fa-circle text-warning"></i> 湿度
           </div>
         </chart-card>
       </div>
