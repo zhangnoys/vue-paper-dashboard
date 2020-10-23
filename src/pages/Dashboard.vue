@@ -23,8 +23,8 @@
     <div class="row">
 
       <div class="col-12">
-        <chart-card title="Users behavior"
-                    sub-title="24 Hours performance"
+        <chart-card title="状态"
+                    sub-title="24小时内"
                     :chart-data="usersChart.data"
                     :chart-options="usersChart.options">
           <span slot="footer">
@@ -54,8 +54,8 @@
       </div>
 
       <div class="col-md-6 col-12">
-        <chart-card title="2015 Sales"
-                    sub-title="All products including Taxes"
+        <chart-card title="2020 状态"
+                    sub-title="温度和湿度"
                     :chart-data="activityChart.data"
                     :chart-options="activityChart.options">
           <span slot="footer">
@@ -81,7 +81,7 @@ export default {
     ChartCard
   },
   /**
-   * Chart data used to render stats, charts. Should be replaced with server data
+   * Chart data used to rendder stats, charts. Should be replaced with server data
    */
   data() {
     return {
@@ -89,33 +89,33 @@ export default {
         {
           type: "warning",
           icon: "ti-server",
-          title: "Capacity",
-          value: "105GB",
-          footerText: "Updated now",
+          title: "容量",
+          value: "300",
+          footerText: "刷新",
           footerIcon: "ti-reload"
         },
         {
           type: "success",
           icon: "ti-wallet",
-          title: "Revenue",
-          value: "$1,345",
-          footerText: "Last day",
+          title: "用量",
+          value: "1,345",
+          footerText: "昨天",
           footerIcon: "ti-calendar"
         },
         {
           type: "danger",
           icon: "ti-pulse",
-          title: "Errors",
+          title: "报警",
           value: "23",
-          footerText: "In the last hour",
+          footerText: "过去一小时",
           footerIcon: "ti-timer"
         },
         {
           type: "info",
           icon: "ti-twitter-alt",
-          title: "Followers",
+          title: "访问人数",
           value: "+45",
-          footerText: "Updated now",
+          footerText: "刷新",
           footerIcon: "ti-reload"
         }
       ],
@@ -155,18 +155,18 @@ export default {
       activityChart: {
         data: {
           labels: [
-            "Jan",
-            "Feb",
-            "Mar",
-            "Apr",
-            "Mai",
-            "Jun",
-            "Jul",
-            "Aug",
-            "Sep",
-            "Oct",
-            "Nov",
-            "Dec"
+            "一月",
+            "二月",
+            "三月",
+            "四月",
+            "五月",
+            "六月",
+            "七月",
+            "八月",
+            "九月",
+            "十月",
+            "十一月",
+            "十二月"
           ],
           series: [
             [542, 543, 520, 680, 653, 753, 326, 434, 568, 610, 756, 895],
