@@ -16,24 +16,24 @@
           <li class="nav-item">
             <a href="#" class="nav-link">
               <i class="ti-panel"></i>
-              <p>Stats</p>
+              <p>状态</p>
             </a>
           </li>
           <drop-down class="nav-item"
-                     title="5 Notifications"
+                     title="5 警告"
                      title-classes="nav-link"
                      icon="ti-bell">
-            <a class="dropdown-item" href="#">Notification 1</a>
-            <a class="dropdown-item" href="#">Notification 2</a>
-            <a class="dropdown-item" href="#">Notification 3</a>
-            <a class="dropdown-item" href="#">Notification 4</a>
-            <a class="dropdown-item" href="#">Another notification</a>
+            <a class="dropdown-item" href="#">警告 1</a>
+            <a class="dropdown-item" href="#">警告 2</a>
+            <a class="dropdown-item" href="#">警告 3</a>
+            <a class="dropdown-item" href="#">警告 4</a>
+            <a class="dropdown-item" href="#">其他警告</a>
           </drop-down>
           <li class="nav-item">
             <a href="#" class="nav-link">
               <i class="ti-settings"></i>
               <p>
-                Settings
+                设置
               </p>
             </a>
           </li>

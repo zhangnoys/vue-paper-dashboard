@@ -28,7 +28,7 @@
                     :chart-data="usersChart.data"
                     :chart-options="usersChart.options">
           <span slot="footer">
-            <i class="ti-reload"></i> Updated 3 minutes ago
+            <i class="ti-reload"></i> asd
           </span>
           <div slot="legend">
             <i class="fa fa-circle text-info"></i> 温度
@@ -73,6 +73,16 @@
   </div>
 </template>
 <script>
+  var mysql      = require('mysql');
+  var connection = mysql.createConnection({
+  host     : 'localhost',
+  user     : 'root',
+  password : 'root',
+  database : 'hello'
+  });
+ //connection.connect();
+
+
 import { StatsCard, ChartCard } from "@/components/index";
 import Chartist from 'chartist';
 export default {

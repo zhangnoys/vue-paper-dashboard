@@ -19,37 +19,37 @@ const routes = [
     children: [
       {
         path: "dashboard",
-        name: "dashboard",
+        name: "仪表板",
         component: Dashboard
       },
       {
         path: "stats",
-        name: "stats",
+        name: "状态",
         component: UserProfile
       },
       {
         path: "notifications",
-        name: "notifications",
+        name: "警告",
         component: Notifications
       },
       {
         path: "icons",
-        name: "icons",
+        name: "图标",
         component: Icons
       },
       {
         path: "maps",
-        name: "maps",
+        name: "地图",
         component: Maps
       },
       {
         path: "typography",
-        name: "typography",
+        name: "排版",
         component: Typography
       },
       {
         path: "table-list",
-        name: "table-list",
+        name: "列表",
         component: TableList
       }
     ]

@@ -27,7 +27,6 @@ export default {};
   .list-leave-active {
     transition: transform 1s ease-out, opacity 0.4s ease-out;
   }
-
   .list-enter {
     opacity: 0;
     transform: scale(1.1);
